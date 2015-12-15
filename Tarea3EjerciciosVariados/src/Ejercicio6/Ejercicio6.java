@@ -8,7 +8,19 @@ public class Ejercicio6 {
 		Mostrar un mensaje de error si el número de cifras es mayor.*/
 		
 		Scanner sc=new Scanner(System.in);
+		int num;
 		
+		System.out.println("Introduce un número entero positivo");
+	    num=sc.nextInt();
+	    
+	    if(num<=9)
+	    	System.out.println("El número tiene una cifra");
+	    else if(num<=99)
+	    	System.out.println("El número tiene dos cifras");
+	    else if(num<=999)
+	    	System.out.println("El número tiene tres cifras");
+	    else 
+	    	System.out.println("Error");
 		
 
 	}
