@@ -15,19 +15,20 @@ public class Ejercicio7 {
 		
 		Scanner sc=new Scanner(System.in);
 		
-		int preguntas;
-		int respuestas;
-		
 		System.out.println("Las preguntas que le hicieron son");
-		preguntas=sc.nextInt();
+		int preguntas=sc.nextInt();
 		System.out.println("Las respuestas que hizo fue");
-		respuestas=sc.nextInt();
+		int respuestas=sc.nextInt();
 		
-		if(respuestas>=90%preguntas)
+		int porcentaje=(respuestas*100)/preguntas;
+		
+		
+		
+		if(porcentaje>=90)
 			System.out.println("Nivel máximo");
-		else if(respuestas>=75%preguntas)
+		else if(porcentaje>=75&&porcentaje<90)
 			System.out.println("Nivel medio");
-		else if(respuestas>=50%preguntas)
+		else if(porcentaje>=50&&porcentaje<75)
 			System.out.println("Nivel regular");
 		else
 			System.out.println("Fuera de nivel");

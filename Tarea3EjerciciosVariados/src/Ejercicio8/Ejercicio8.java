@@ -9,12 +9,17 @@ public class Ejercicio8 {
 		Scanner sc=new Scanner(System.in);
 		
 		int fecha;
+		int mes;
 		System.out.println("Introduce una fecha");
 		fecha=sc.nextInt();
 		
-		if(fecha==25&&fecha==24)
-			System.out.println();
+		System.out.println("Introduce el mes");
+		mes=sc.nextInt();
 		
+		if(fecha==25&&mes==12)
+			System.out.println("Es navidad");
+		else 
+			System.out.println("No es navidad");
 		
 
 

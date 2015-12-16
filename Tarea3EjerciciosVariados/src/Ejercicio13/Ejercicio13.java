@@ -33,7 +33,6 @@ public class Ejercicio13 {
 		else
 			System.out.println("El sueldo del operario se queda en "+sueldo);
 		
-        
 	}
 	
 }

@@ -21,8 +21,8 @@ public class Ejercicio1 {
 		     System.out.println("La resta de "+num1+"-"+num2+" es igual a "+(num1-num2));
 		 }
 		     else{
-		    	 System.out.println("La división de "+num1+"/"+num2+"es igual a "+(num1/num2));
-		         System.out.println("La potencia de "+num1+"*"+num2+"es igual a "+(num1*num2));
+		    	 System.out.println("La división de "+num1+"/"+num2+" es igual a "+(num1/num2));
+		         System.out.println("La potencia de "+num1+"*"+num2+" es igual a "+(num1*num2));
 		     }
 		
 		
