@@ -10,14 +10,20 @@ public class Ejercicio16 {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Ingrese el número de alturas");
-		int altura=sc.nextInt();
+		int num=sc.nextInt();
+		
+		int contador=0;
+		double altura=0;
+		
+		while(num>0){
+			
+			System.out.println("Introduce una altura");
+			altura=altura+sc.nextInt();
+			num--;contador++;
+		}
+		System.out.println("La altura media es : "+(altura/contador));
 		
 		
-		int z;
-		double
-		
-		
-		while()
 
 
 	}
