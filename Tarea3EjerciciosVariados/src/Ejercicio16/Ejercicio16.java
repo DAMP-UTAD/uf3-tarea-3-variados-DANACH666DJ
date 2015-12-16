@@ -6,12 +6,18 @@ public class Ejercicio16 {
 		/*16. Se ingresan un conjunto de n alturas de personas por teclado. Mostrar la altura
 		promedio de las personas.*/
 		
+		
+		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Ingrese el número de alturas");
-		double altura=sc.nextDouble();
+		int altura=sc.nextInt();
 		
 		
-		while(altura>sc)
+		int z;
+		double
+		
+		
+		while()
 
 
 	}

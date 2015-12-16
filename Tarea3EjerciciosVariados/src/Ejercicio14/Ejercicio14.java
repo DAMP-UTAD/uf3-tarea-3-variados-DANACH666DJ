@@ -15,10 +15,21 @@ public class Ejercicio14 {
 		System.out.println("Introduce el tercer número");
 		int num3=sc.nextInt();
 		
-		if(num1>num2&&num1>num3)
-			System.out.println("El num1 es mayor a todos");
-		else if(num2<num1&&num<num3)
-			System.out.println("El num1 es menor a todos");
+		if(num1>num2&&num3>num1)
+			System.out.println("El número mayor es "+num3+" y el número menor es "+num2);
+		else if(num3>num1&&num2>num1)
+			System.out.println("El número mayor es "+num3+" y el número menor es "+num1);
+		else if(num3>num1&&num2>num3)
+			System.out.println("El número mayor es "+num2+" y el número menor es "+num1);
+		else if(num1>num3&&num2>num3)
+			System.out.println("El número mayor es "+num1+" y el número menor es "+num3);
+		else if(num1>num2&&num3>num2)
+			System.out.println("El número mayor es "+num1+" y el número menor es "+num2);
+		else if(num1>num3&&num2>num1)
+			System.out.println("El número mayor es "+num2+" y el número menor es "+num3);
+		
+		
+		
 	}
 
 }

@@ -8,21 +8,23 @@ public class Ejercicio15 {
 		
 		Scanner sc=new Scanner(System.in);
 		
-		System.out.println("Cuantas notas desea ingresar");
-		int nota=sc.nextInt();
-		int contador=0;
 		
-		while(nota>=contador){
+		int contador=1;
+		int mayor=0;
+		int menor=0;
+		
+		while(contador<=10){
 			System.out.println("Ingrese nota");
-			nota=sc.nextInt();
+			int nota=sc.nextInt();
+			contador++;
 			if(nota>=7)
-				contador++;
+				mayor++;
 			else
-				contador++;
+				menor++;
 			
 		}
-			System.out.println("El número de notas mayores es de :"+contador);
-			System.out.println("El númerno de notas menores es de :"+contador);
+			System.out.println("El número de notas mayores es de :"+mayor);
+			System.out.println("El númerno de notas menores es de :"+menor);
 		
 	}
 
